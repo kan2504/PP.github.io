@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Где купить | PROGRESSPHARM</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>PROGRESS<span>PHARM</span></h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О компании</a></li>
+                    <li><a href="products.html">Продукция</a></li>
+                    <li><a href="where-to-buy.html" class="active">Где купить</a></li>
+                    <li><a href="news.html">Новости</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="language-switch">
+                <a href="#" class="lang-active">RU</a>
+                <a href="where-to-buy-uz.html">UZ</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Хлебные крошки -->
+    <nav class="breadcrumbs">
+        <div class="container">
+            <a href="index.html">Главная</a> / <span>Где купить</span>
+        </div>
+    </nav>
+
+    <!-- Где купить -->
+    <section class="where-to-buy">
+        <div class="container">
+            <h1 class="page-title">Где купить нашу продукцию</h1>
+            
+            <div class="buy-options">
+                <div class="option-card">
+                    <div class="option-icon">
+                        <img src="https://via.placeholder.com/80x80/2D8C4D/FFFFFF?text=Аптека" alt="Аптеки">
+                    </div>
+                    <h3>В аптеках</h3>
+                    <p>Более 500 аптек по всему Узбекистану</p>
+                    <a href="#pharmacies-map" class="btn-small">Найти ближайшую</a>
+                </div>
+                
+                <div class="option-card">
+                    <div class="option-icon">
+                        <img src="https://via.placeholder.com/80x80/2D8C4D/FFFFFF?text=Больница" alt="Медицинские учреждения">
+                    </div>
+                    <h3>В больницах</h3>
+                    <p>Поставки в медицинские учреждения</p>
+                    <a href="#hospitals" class="btn-small">Список учреждений</a>
+                </div>
+                
+                <div class="option-card">
+                    <div class="option-icon">
+                        <img src="https://via.placeholder.com/80x80/2D8C4D/FFFFFF?text=Онлайн" alt="Интернет-магазины">
+                    </div>
+                    <h3>Онлайн</h3>
+                    <p>Интернет-магазины и доставка на дом</p>
+                    <a href="#online-stores" class="btn-small">Список магазинов</a>
+                </div>
+                
+                <div class="option-card">
+                    <div class="option-icon">
+                        <img src="https://via.placeholder.com/80x80/2D8C4D/FFFFFF?text=Бизнес" alt="Для бизнеса">
+                    </div>
+                    <h3>Для бизнеса</h3>
+                    <p>Оптовые поставки для юридических лиц</p>
+                    <a href="partners.html" class="btn-small">Стать партнером</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Карта аптек -->
+    <section class="pharmacies-map" id="pharmacies-map">
+        <div class="container">
+            <h2>Карта аптек</h2>
+            <div class="map-container">
+                <div class="map-search">
+                    <input type="text" placeholder="Введите город или район">
+                    <button class="btn-primary">Найти</button>
+                </div>
+                <div class="map-wrapper">
+                    <!-- Здесь будет карта -->
+                    <div class="map-placeholder">
+                        <p>Интерактивная карта аптек будет здесь</p>
+                        <img src="https://via.placeholder.com/800x400/E8F5EE/2D8C4D?text=Карта+аптек" alt="Карта аптек" style="width: 100%; height: 300px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Список аптек -->
+    <section class="pharmacies-list">
+        <div class="container">
+            <h2>Аптеки в Ташкенте</h2>
+            <div class="pharmacies-filters">
+                <select>
+                    <option>Все районы</option>
+                    <option>Юнусабадский район</option>
+                    <option>Мирзо-Улугбекский район</option>
+                    <option>Чиланзарский район</option>
+                    <option>Шайхантаурский район</option>
+                </select>
+                <input type="text" placeholder="Поиск по названию">
+            </div>
+            
+            <div class="pharmacies-grid">
+                <div class="pharmacy-card">
+                    <div class="pharmacy-info">
+                        <h3>Аптека №1</h3>
+                        <p>📍 ул. Амира Тимура, 15, Юнусабадский район</p>
+                        <p>📞 (71) 234-56-78</p>
+                        <p>🕒 Пн-Вс: 8:00-22:00</p>
+                    </div>
+                    <div class="pharmacy-stock">
+                        <span class="stock-badge">В наличии</span>
+                        <p>Все виды продукции PROGRESSPHARM</p>
+                    </div>
+                </div>
+                
+                <div class="pharmacy-card">
+                    <div class="pharmacy-info">
+                        <h3>Аптека "Здоровье"</h3>
+                        <p>📍 пр. Навои, 45, Мирзо-Улугбекский район</p>
+                        <p>📞 (71) 245-67-89</p>
+                        <p>🕒 Пн-Вс: 9:00-21:00</p>
+                    </div>
+                    <div class="pharmacy-stock">
+                        <span class="stock-badge">В наличии</span>
+                        <p>Популярные позиции в наличии</p>
+                    </div>
+                </div>
+                
+                <div class="pharmacy-card">
+                    <div class="pharmacy-info">
+                        <h3>Аптека "Фармация"</h3>
+                        <p>📍 ул. Чиланзар, 12, Чиланзарский район</p>
+                        <p>📞 (71) 256-78-90</p>
+                        <p>🕒 Пн-Вс: 8:00-23:00</p>
+                    </div>
+                    <div class="pharmacy-stock">
+                        <span class="stock-badge-low">Остаток малый</span>
+                        <p>Только сиропы и капли</p>
+                    </div>
+                </div>
+                
+                <div class="pharmacy-card">
+                    <div class="pharmacy-info">
+                        <h3>Аптека "Медсервис"</h3>
+                        <p>📍 ул. Ташкентская, 67, Шайхантаурский район</p>
+                        <p>📞 (71) 267-89-01</p>
+                        <p>🕒 Пн-Вс: 9:00-22:00</p>
+                    </div>
+                    <div class="pharmacy-stock">
+                        <span class="stock-badge">В наличии</span>
+                        <p>Полный ассортимент продукции</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pagination">
+                <button class="page-btn disabled">Назад</button>
+                <button class="page-btn active">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">3</button>
+                <button class="page-btn">Следующая</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Онлайн магазины -->
+    <section class="online-stores" id="online-stores">
+        <div class="container">
+            <h2>Интернет-магазины</h2>
+            <div class="stores-grid">
+                <div class="store-card">
+                    <div class="store-logo">
+                        <img src="https://via.placeholder.com/100x60/2D8C4D/FFFFFF?text=Uzum" alt="Uzum Market">
+                    </div>
+                    <div class="store-info">
+                        <h3>Uzum Market</h3>
+                        <p>Бесплатная доставка от 150 000 сум</p>
+                        <p>Доставка: 1-2 дня</p>
+                        <a href="#" class="btn-small">Перейти в магазин</a>
+                    </div>
+                </div>
+                
+                <div class="store-card">
+                    <div class="store-logo">
+                        <img src="https://via.placeholder.com/100x60/2D8C4D/FFFFFF?text=Apteka" alt="Apteka.ru">
+                    </div>
+                    <div class="store-info">
+                        <h3>Apteka.ru</h3>
+                        <p>Скидка 5% на первый заказ</p>
+                        <p>Доставка: 2-3 дня</p>
+                        <a href="#" class="btn-small">Перейти в магазин</a>
+                    </div>
+                </div>
+                
+                <div class="store-card">
+                    <div class="store-logo">
+                        <img src="https://via.placeholder.com/100x60/2D8C4D/FFFFFF?text=E-apteka" alt="E-apteka.uz">
+                    </div>
+                    <div class="store-info">
+                        <h3>E-apteka.uz</h3>
+                        <p>Быстрая доставка по Ташкенту</p>
+                        <p>Доставка: 1 день</p>
+                        <a href="#" class="btn-small">Перейти в магазин</a>
+                    </div>
+                </div>
+                
+                <div class="store-card">
+                    <div class="store-logo">
+                        <img src="https://via.placeholder.com/100x60/2D8C4D/FFFFFF?text=Dori" alt="Dori.uz">
+                    </div>
+                    <div class="store-info">
+                        <h3>Dori.uz</h3>
+                        <p>Консультация фармацевта</p>
+                        <p>Доставка: 1-3 дня</p>
+                        <a href="#" class="btn-small">Перейти в магазин</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Для оптовых покупателей -->
+    <section class="wholesale">
+        <div class="container">
+            <div class="wholesale-content">
+                <div class="wholesale-text">
+                    <h2>Оптовые поставки</h2>
+                    <p>Предлагаем выгодные условия сотрудничества для аптечных сетей, медицинских учреждений и дистрибьюторов.</p>
+                    <ul>
+                        <li>Гибкая система скидок</li>
+                        <li>Минимальные заказы от 500 000 сум</li>
+                        <li>Индивидуальный подход к каждому клиенту</li>
+                        <li>Быстрая доставка по всему Узбекистану</li>
+                    </ul>
+                    <a href="partners.html" class="btn-primary">Стать партнером</a>
+                </div>
+                <div class="wholesale-image">
+                    <img src="https://via.placeholder.com/500x300/2D8C4D/FFFFFF?text=Оптовые+поставки" alt="Оптовые поставки">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <h3>PROGRESS<span>PHARM</span></h3>
+                        <p>Производство БАД нового поколения</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+                        <a href="#"><img src="icons/telegram.svg" alt="Telegram"></a>
+                        <a href="#"><img src="icons/youtube.svg" alt="YouTube"></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Компания</h4>
+                    <ul>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="production.html">Производство</a></li>
+                        <li><a href="certificates.html">Сертификаты</a></li>
+                        <li><a href="partners.html">Партнеры</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Продукция</h4>
+                    <ul>
+                        <li><a href="products.html#syrups">Сиропы</a></li>
+                        <li><a href="products.html#suspensions">Суспензии</a></li>
+                        <li><a href="products.html#drops">Капли</a></li>
+                        <li><a href="products.html#tablets">Таблетки</a></li>
+                        <li><a href="products.html#capsules">Капсулы</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Контакты</h4>
+                    <div class="contact-info">
+                        <p>📞 Телефон: <a href="tel:+998XX XXX XX XX">+998 XX XXX XX XX</a></p>
+                        <p>✉️ Email: <a href="mailto:info@progresspharm.uz">info@progresspharm.uz</a></p>
+                        <p>📍 Адрес: г. Ташкент, ул. Прогресс, д. 15</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 PROGRESSPHARM. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости | PROGRESSPHARM</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>PROGRESS<span>PHARM</span></h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О компании</a></li>
+                    <li><a href="products.html">Продукция</a></li>
+                    <li><a href="where-to-buy.html">Где купить</a></li>
+                    <li><a href="news.html" class="active">Новости</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="language-switch">
+                <a href="#" class="lang-active">RU</a>
+                <a href="news-uz.html">UZ</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Хлебные крошки -->
+    <nav class="breadcrumbs">
+        <div class="container">
+            <a href="index.html">Главная</a> / <span>Новости</span>
+        </div>
+    </nav>
+
+    <!-- Новости -->
+    <section class="news-page">
+        <div class="container">
+            <h1 class="page-title">Новости компании</h1>
+            
+            <div class="news-filters">
+                <div class="filter-group">
+                    <label>Категория:</label>
+                    <select>
+                        <option value="all">Все новости</option>
+                        <option value="products">Продукты</option>
+                        <option value="events">События</option>
+                        <option value="awards">Награды</option>
+                        <option value="research">Исследования</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Год:</label>
+                    <select>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="news-grid">
+                <!-- Новость 1 -->
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250/F8B400/FFFFFF?text=Новая+линейка+сиропов" alt="Запуск новой линейки сиропов">
+                        <div class="news-category">Продукты</div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">15 марта 2024</span>
+                            <span class="news-views">👁 1 247</span>
+                        </div>
+                        <h2><a href="news-detail.html">Запуск новой линейки сиропов для детей</a></h2>
+                        <p class="news-excerpt">Представляем инновационные витаминные сиропы с улучшенным вкусом и составом, разработанные специально для подрастающего поколения.</p>
+                        <div class="news-tags">
+                            <span class="tag">Сиропы</span>
+                            <span class="tag">Дети</span>
+                            <span class="tag">Инновации</span>
+                        </div>
+                        <a href="news-detail.html" class="read-more">Читать далее →</a>
+                    </div>
+                </article>
+                
+                <!-- Новость 2 -->
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250/2D8C4D/FFFFFF?text=Сертификация+GMP" alt="Сертификация GMP">
+                        <div class="news-category">События</div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">08 марта 2024</span>
+                            <span class="news-views">👁 2 156</span>
+                        </div>
+                        <h2><a href="news-detail.html">Сертификация производства по стандарту GMP</a></h2>
+                        <p class="news-excerpt">Наше производство успешно прошло международную сертификацию качества, что подтверждает высокий уровень наших стандартов.</p>
+                        <div class="news-tags">
+                            <span class="tag">Производство</span>
+                            <span class="tag">Сертификаты</span>
+                            <span class="tag">Качество</span>
+                        </div>
+                        <a href="news-detail.html" class="read-more">Читать далее →</a>
+                    </div>
+                </article>
+                
+                <!-- Новость 3 -->
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250/4A90E2/FFFFFF?text=Медицинская+конференция" alt="Медицинская конференция">
+                        <div class="news-category">События</div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">01 марта 2024</span>
+                            <span class="news-views">👁 892</span>
+                        </div>
+                        <h2><a href="news-detail.html">Участие в международной медицинской конференции</a></h2>
+                        <p class="news-excerpt">Наши специалисты представили доклад о новых разработках в области БАД на престижной конференции в Москве.</p>
+                        <div class="news-tags">
+                            <span class="tag">Конференции</span>
+                            <span class="tag">Исследования</span>
+                            <span class="tag">Эксперты</span>
+                        </div>
+                        <a href="news-detail.html" class="read-more">Читать далее →</a>
+                    </div>
+                </article>
+                
+                <!-- Новость 4 -->
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250/9B59B6/FFFFFF?text=Новые+партнеры" alt="Новые партнеры">
+                        <div class="news-category">События</div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">25 февраля 2024</span>
+                            <span class="news-views">👁 1 567</span>
+                        </div>
+                        <h2><a href="news-detail.html">Заключение договоров с новыми региональными партнерами</a></h2>
+                        <p class="news-excerpt">Расширяем географию присутствия компании, подписав соглашения с дистрибьюторами в трех новых регионах.</p>
+                        <div class="news-tags">
+                            <span class="tag">Партнеры</span>
+                            <span class="tag">Регионы</span>
+                            <span class="tag">Бизнес</span>
+                        </div>
+                        <a href="news-detail.html" class="read-more">Читать далее →</a>
+                    </div>
+                </article>
+                
+                <!-- Новость 5 -->
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250/E94B3C/FFFFFF?text=Исследования" alt="Результаты исследований">
+                        <div class="news-category">Исследования</div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">18 февраля 2024</span>
+                            <span class="news-views">👁 2 341</span>
+                        </div>
+                        <h2><a href="news-detail.html">Публикация результатов клинических исследований</a></h2>
+                        <p class="news-excerpt">Научный журнал опубликовал наши данные о высокой эффективности новых форм выпуска БАД.</p>
+                        <div class="news-tags">
+                            <span class="tag">Исследования</span>
+                            <span class="tag">Наука</span>
+                            <span class="tag">Эффективность</span>
+                        </div>
+                        <a href="news-detail.html" class="read-more">Читать далее →</a>
+                    </div>
+                </article>
+                
+                <!-- Новость 6 -->
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250/F39C12/FFFFFF?text=Награда" alt="Награда">
+                        <div class="news-category">Награды</div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">10 февраля 2024</span>
+                            <span class="news-views">👁 1 876</span>
+                        </div>
+                        <h2><a href="news-detail.html">Получение премии "Лучший производитель БАД 2023"</a></h2>
+                        <p class="news-excerpt">PROGRESSPHARM удостоена престижной награды в номинации инновационных решений в сфере БАД.</p>
+                        <div class="news-tags">
+                            <span class="tag">Награды</span>
+                            <span class="tag">Признание</span>
+                            <span class="tag">Успех</span>
+                        </div>
+                        <a href="news-detail.html" class="read-more">Читать далее →</a>
+                    </div>
+                </article>
+            </div>
+            
+            <!-- Пагинация -->
+            <div class="pagination">
+                <button class="page-btn disabled">Назад</button>
+                <button class="page-btn active">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">3</button>
+                <button class="page-btn">Следующая</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подписка на новости -->
+    <section class="news-subscription">
+        <div class="container">
+            <div class="subscription-content">
+                <div class="subscription-text">
+                    <h2>Подпишитесь на наши новости</h2>
+                    <p>Будьте в курсе последних новостей, запусков новых продуктов и специальных предложений.</p>
+                </div>
+                <form class="subscription-form">
+                    <input type="email" placeholder="Ваш email" required>
+                    <button type="submit" class="btn-primary">Подписаться</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <h3>PROGRESS<span>PHARM</span></h3>
+                        <p>Производство БАД нового поколения</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+                        <a href="#"><img src="icons/telegram.svg" alt="Telegram"></a>
+                        <a href="#"><img src="icons/youtube.svg" alt="YouTube"></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Компания</h4>
+                    <ul>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="production.html">Производство</a></li>
+                        <li><a href="certificates.html">Сертификаты</a></li>
+                        <li><a href="partners.html">Партнеры</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Продукция</h4>
+                    <ul>
+                        <li><a href="products.html#syrups">Сиропы</a></li>
+                        <li><a href="products.html#suspensions">Суспензии</a></li>
+                        <li><a href="products.html#drops">Капли</a></li>
+                        <li><a href="products.html#tablets">Таблетки</a></li>
+                        <li><a href="products.html#capsules">Капсулы</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Контакты</h4>
+                    <div class="contact-info">
+                        <p>📞 Телефон: <a href="tel:+998XX XXX XX XX">+998 XX XXX XX XX</a></p>
+                        <p>✉️ Email: <a href="mailto:info@progresspharm.uz">info@progresspharm.uz</a></p>
+                        <p>📍 Адрес: г. Ташкент, ул. Прогресс, д. 15</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 PROGRESSPHARM. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
