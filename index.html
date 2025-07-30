@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRO-GRESS-FARM - Здоровье и красота</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Логотип PRO-GRESS-FARM" class="logo-img">
+                <h1 class="logo-text">PRO-GRESS-FARM</h1>
+            </div>
+            <!-- Обновленное меню -->
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" class="active">Главная</a></li>
+                    <li><a href="about.html">О компании</a></li>
+                    <li><a href="#products">Продукция</a></li>
+                    <li><a href="#blog">Новости</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Здоровье, Красота и Прогресс</h2>
+                <p>Производство и дистрибуция качественных БАДов и средств гигиены</p>
+                <a href="#contact" class="cta-button">Связаться с нами</a>
+            </div>
+        </section>
+
+        <section class="about"> 
+            <div class="container">
+                <h2>О компании «PRO-GRESS-FARM»</h2>
+                <p><strong>«PRO-GRESS-FARM»</strong> — новое, динамично развивающееся предприятие в Намангане, начавшее свою деятельность в 2024 году.</p>
+                <p>Наша миссия — создавать эффективные и безопасные биологически активные добавки и средства гигиены, способствующие укреплению здоровья и уверенности в себе.</p>
+                <p>Мы специализируемся на производстве широкого спектра продукции: витамины, препараты для профилактики простуды, косметическая продукция и средства личной гигиены. Вся продукция <strong>«PRO-GRESS-FARM»</strong> производится по строгим стандартам качества и проходит контроль на всех этапах.</p>
+                <p><strong>Наши преимущества:</strong></p>
+                <ul class="advantages-list">
+                    <li>✅ Использование натуральных компонентов</li>
+                    <li>✅ Современные технологии производства</li>
+                    <li>✅ Доступные цены</li>
+                    <li>✅ Индивидуальный подход к каждому клиенту</li>
+                </ul>
+                <p style="text-align: center; margin-top: 20px;">
+                    <a href="about.html" class="cta-button" style="background-color: #2E7D32; color: white !important;">Подробнее о компании</a>
+                </p>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <div class="container">
+                <h2>Наша продукция</h2>
+                <div class="product-grid">
+                    <a href="product-details.html?product=хлорофиллипт" class="product-item">
+                        <h3>Хлорофиллипт</h3>
+                        <p>Антибактериальное средство растительного происхождения</p>
+                    </a>
+                    <a href="product-details.html?product=алмагель" class="product-item">
+                        <h3>Алмагель</h3>
+                        <p>Антацидное средство для лечения заболеваний ЖКТ</p>
+                    </a>
+                    <a href="product-details.html?product=ингалипт" class="product-item">
+                        <h3>Ингалипт</h3>
+                        <p>Антисептик для полости рта и горла</p>
+                    </a>
+                    <a href="product-details.html?product=димексид" class="product-item">
+                        <h3>Димексид</h3>
+                        <p>Противовоспалительное и обезболивающее средство</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog">
+            <div class="container">
+                <h2>Новости компании</h2>
+                <div class="blog-grid">
+                    <article class="blog-post">
+                        <h3>Открытие нового производства</h3>
+                        <p class="post-date">15 апреля 2024</p>
+                        <p>Мы рады сообщить об открытии современного производственного цеха...</p>
+                    </article>
+                    <article class="blog-post">
+                        <h3>Новинка в линейке БАДов</h3>
+                        <p class="post-date">28 марта 2024</p>
+                        <p>Представляем новый витаминный комплекс для укрепления иммунитета...</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Связаться с нами</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Контактная информация</h3>
+                        <p><strong>Адрес:</strong> Узбекистан, Наманганская область, город Наманган, улица Бахористон, 18</p>
+                        <p><strong>Email:</strong> <a href="mailto:progressfarmuz@gmail.com">progressfarmuz@gmail.com</a></p>
+                        <p><strong>Телефон:</strong> +998 XX XXX XX XX (уточните)</p>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Форма обратной связи</h3>
+                        <form id="feedback-form">
+                            <input type="text" name="name" placeholder="Ваше имя" required>
+                            <input type="email" name="email" placeholder="Ваш email" required>
+                            <input type="tel" name="phone" placeholder="Ваш телефон">
+                            <textarea name="message" placeholder="Ваше сообщение" required></textarea>
+                            <button type="submit">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 PRO-GRESS-FARM. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
